@@ -165,6 +165,11 @@ background-color: yellow;
 
 @media (max-width: 600px) {
 
+.script{
+  padding: 50px 10px 50px 10px;
+  margin-left: 10px;
+    margin-right: 10px;
+}
 .script,
 .script2{
   font-size: 36px;
