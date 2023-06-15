@@ -133,6 +133,13 @@ align-items: flex-start;
   background-repeat: no-repeat;
   background-image: url(nh-cover.png);
 }
+
+.illustration{
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(illustration.png);
+}
 .project3{
   display: flex;
   flex-wrap: nowrap;
