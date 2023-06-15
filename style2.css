@@ -47,7 +47,7 @@ flex-wrap: nowrap;
   font-size: 16px;
   /* background-color: red; */
 }
-
+.name2,
 .work{
   text-align: center;
   width:100px;
@@ -60,10 +60,12 @@ flex-wrap: nowrap;
   color: #333;
 
 }
+.name2 a,
 .work a{
     color: #333;
       text-decoration:none;
 }
+.name2 a:hover,
 .work a:hover{
   color:#333;
 }
