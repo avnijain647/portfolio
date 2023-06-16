@@ -238,7 +238,9 @@ font-size: 15px;
 .vertical-block-2{
   width:100%;
 }
-
+.horizontal-block img{
+  width: 100%;
+}
   .text-box{
 align-items: flex-start;
 width: 100%;
