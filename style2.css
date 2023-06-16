@@ -199,6 +199,7 @@ padding: 0;
 .vertical-block-1{
   background-color: #ffffff;
 width:50%;
+font-size: 21px;
 }
 
 .vertical-block-2{
@@ -231,6 +232,7 @@ flex-wrap: wrap;
 }
 .vertical-block-1{
 width:100%;
+font-size: 15px;
 }
 
 .vertical-block-2{
