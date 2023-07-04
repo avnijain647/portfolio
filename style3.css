@@ -100,21 +100,21 @@ display: block;
 .script {
   animation: movetext 2s;
   position: absolute;
-padding: 50px 25px 75px 25px;
+padding: 25px 25px 75px 25px;
   margin-left: 25px;
     margin-right: 25px;
   background-color: rgba(251, 251, 241, 0);
   line-height: 1.4;
   height: 100vh;
   display: inline;
-  font-size: 64px;
+  font-size: 36px;
    text-transform: none;
 
   /*font-style: italic;*/
 }
 .script2 {
   z-index: 2;
-  font-size: 64px;
+  font-size: 36px;
   position: relative;
   transform: translateX(0px);
   display: inline-block;
@@ -131,12 +131,12 @@ background-color: yellow;
 .script1{
   /* background-color: yellow; */
   position: absolute;
-  transform: rotate(10deg) translateY(10px);
+  transform: rotate(10deg) translateY(0px);
   transform-origin: top left;
   /* font-size: 4vw; */
   color: rgba(251, 251, 241, 0);
   border-left: 3px solid #333;
-  margin-left: 30px;
+  margin-left: 10px;
     transition: 0.3s;
 }
  .script2:hover .script1{
@@ -163,18 +163,20 @@ background-color: yellow;
   font-style: italic;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
 .script{
-  padding: 40px 10px 40px 10px;
+  padding: 25px 10px 40px 10px;
   margin-left: 20px;
     margin-right: 20px;
 }
 .script,
 .script2{
-  font-size: 36px;
+  font-size: 24px;
 }
-
+.script1{
+    border-left: 2px solid #333;
+}
 
 
 }
