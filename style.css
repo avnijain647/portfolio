@@ -133,7 +133,12 @@ align-items: flex-start;
   background-repeat: no-repeat;
   background-image: url(nh-cover.png);
 }
-
+.indigo{
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(indigo-cover.png);
+}
 .illustration{
     background-position: center;
   background-size: cover;
@@ -145,7 +150,7 @@ align-items: flex-start;
   flex-wrap: nowrap;
 justify-content: space-between;
 align-items: flex-start;
-  background-color:#ddd;
+  background-color: #eee;
   margin-bottom:25px;
   width:96vw;
 }
@@ -157,10 +162,10 @@ align-items: flex-start;
   background-color:black;
 }
 .project-text3{
-  position: sticky;
+  /* position: sticky;
       position:-webkit-sticky;
       top:0;
-      left:0;
+      left:0; */
   padding-top: 15px;
   padding-bottom: 15px;
     margin-left: 15px;
@@ -193,8 +198,9 @@ line-height: 1;
   font-size:27px;
 }
 .project-name3{
-width:350px;
-line-height: 1;
+  line-height:1.5;
+/* width:350px; */
+/* line-height: 1; */
   font-size:17px;
 }
 .year{

@@ -142,6 +142,12 @@ width: 600px;
   background-size: cover;
   background-position: center;
 }
+.indigo2{
+  background-image: url(indigo-cover.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .role{
    margin-top: 25px;
     /* text-transform: uppercase; */
