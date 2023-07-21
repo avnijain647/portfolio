@@ -159,12 +159,27 @@ background-size: contain;
 background-repeat: no-repeat;
 background-image: url(vinyl_2.png);
 }
+
+.integrated-art1{
+  background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(integrated-art1.png);
+}
+
+.integrated-art2{
+  background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(integrated-art2.png);
+}
 .project3{
   display: flex;
   flex-wrap: nowrap;
 justify-content: space-between;
-align-items: flex-start;
-  background-color: #FFFCED;
+/* align-items: flex-start; */
+border-top: 1px #000 solid;
+  /* background-color: #FFFCED; */
   margin-bottom:25px;
   width:96vw;
 }
@@ -180,10 +195,11 @@ align-items: flex-start;
       position:-webkit-sticky;
       top:0;
       left:0; */
+      /* background-color: red; */
   padding-top: 15px;
   padding-bottom: 15px;
     margin-left: 15px;
-  width:48vw;
+  width:33vw;
 }
 .project-text2{
   position: relative;
@@ -216,6 +232,9 @@ line-height: 1;
 /* width:350px; */
 /* line-height: 1; */
   font-size:17px;
+}
+p{
+    color: #a0a0a0;
 }
 .year{
   /* background-color: red; */
