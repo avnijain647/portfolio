@@ -134,7 +134,7 @@ width: 600px;
 }
 
 .nh{
-  background-image: url(nh-cover-square1.png);
+  background-image: url(nh-cover2.png);
   background-size: cover;
   background-position: center;
 }
@@ -174,10 +174,10 @@ border-top: 1px solid #666666;
   position: relative;
   top:0;
   left:0;
-  width: 95vw;
+  width: 90vw;
   /* height:100vw; */
-  margin-left: 2.5vw;
-  margin-right:2.5vw;
+  margin-left: 5vw;
+  margin-right:5vw;
   background-color: #ffffff;
   z-index:1;
   display: flex;
