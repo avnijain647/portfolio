@@ -27,23 +27,23 @@ align-items: flex-start;
 top:0;
 left:0;
 z-index: 1;
-margin-left: 2.5vw;
-margin-right: 2.5vw;
-width: 95vw;
+margin-left: 20px;
+margin-right: 20px;
+/* width: 95vw; */
 /*     border-bottom: 1px solid #aaaaaa; */
     height:35px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     display: flex;
 align-items: center;
 justify-content: center;
 }
 .bar-box{
     /* text-transform: uppercase; */
-width:1200px;
+/* width:1200px;
     display: flex;
 align-items: center;
 justify-content: space-between;
-flex-wrap: nowrap;
+flex-wrap: nowrap; */
   font-size: 16px;
   /* background-color: red; */
 }
@@ -93,10 +93,11 @@ left:0;
   color:black;
   /* font-weight: 200; */
   z-index: 0;
- margin-left:2.5vw;
-  margin-right:2.5vw;
-  width:95vw;
+ margin-left:5vw;
+  margin-right:5vw;
+  width:90vw;
     height:100vh;
+    /* background-color: red; */
 }
 
 .cover{
@@ -133,7 +134,7 @@ width: 600px;
 }
 
 .nh{
-  background-image: url(nh-cover-square.png);
+  background-image: url(nh-cover-square1.png);
   background-size: cover;
   background-position: center;
 }
