@@ -133,7 +133,11 @@ width: 600px;
     height: 600px;
 
 }
-
+.ucfs{
+  background-image: url(ucfs-cover.png);
+  background-size: cover;
+  background-position: center;
+}
 .nh{
   background-image: url(nh-cover2.png);
   background-size: cover;
