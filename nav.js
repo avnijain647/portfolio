@@ -93,12 +93,23 @@ name: "Demo Animation",
 
 var animation = bodymovin.loadAnimation({
 container: document.getElementById('nh-container7'),
-path: 'nh-brand-applications.json',
+path: 'nh-logo-animation-applications.json',
 renderer: 'svg',
 loop: true,
 autoplay: true,
 name: "Demo Animation",
 });
+
+var animation = bodymovin.loadAnimation({
+container: document.getElementById('nh-container8'),
+path: 'social-media-animation-post.json',
+renderer: 'svg',
+loop: true,
+autoplay: true,
+name: "Demo Animation",
+});
+
+
 
 //Fig
 var animation = bodymovin.loadAnimation({
