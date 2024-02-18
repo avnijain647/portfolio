@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
 
 
     width:100vw;
-    height:36px;
+    /* height:36px; */
     top:0;
     left:0;
       z-index: 3;
@@ -24,7 +24,19 @@ justify-content: space-between;
 align-items: center; */
 background-color: white;
 }
-
+.write-up{
+  /* margin :0;
+  top:0;
+  left:0;
+  position: sticky;
+z-index: 0; */
+  width:100%;
+}
+.inner{
+  margin-top: 20px;
+  margin-bottom: 20px;
+width:36%;
+}
 .info{
   background-color: yellow;
     margin-left: 20px;
@@ -43,11 +55,11 @@ text-align: center;
 .project3 a:hover,
 .info a:hover{
   color:#333;
-/* border-bottom:1px solid yellow; */
+border-bottom:1px solid #333;
 }
 
-.project2 a:hover .project-text2{
-/* color: yellow; */
+.project2 a:hover .project-name{
+border-bottom:2px solid #333;
 
 }
 
@@ -73,20 +85,31 @@ text-align: center;
 .dashboard{
   /* background-color:yellow; */
   position: relative;
-    margin-top: 10px;
-    z-index: 1;
+    /* margin-top: 10px; */
+    z-index: 5;
   /* width:95vw; */
   margin-left: 20px;
   margin-right:20px;
   /* height: 100%; */
     display: flex;
     flex-wrap: wrap;
-  justify-content: left;
+  justify-content:  space-around;
   align-items: center;
   /* flex-direction: row; */
 }
-
-
+.gallery{
+  width:100%;
+  background-color: red;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+justify-content:  space-between;
+align-items:  flex-start;
+}
+.gallery-1{
+background-color: yellow;
+width:30%;
+}
 .project1{
     margin-bottom:25px;
   display: flex;
@@ -131,7 +154,7 @@ align-items: flex-start;
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(nh-cover.png);
+  background-image: url(nh-cover2.png);
 }
 .indigo{
     background-position: center;
@@ -276,6 +299,13 @@ p{
   /* justify-content: left; */
 }
 
+.inner{
+width:100%;
+}
+
+.gallery-1{
+width:48%;
+}
 
 .project2{
   /* height: 105vw; */
