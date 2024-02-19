@@ -6,15 +6,16 @@ body{
   font-family: 'DM Sans', sans-serif;
 }
 .text{
-  display: flex;
-font-style: italic;
-align-items: flex-start;
-  text-align: left;
-  /* border-bottom: 1px solid #a0a0a0; */
-  color:#a0a0a0;
+  /* display: block !important;
+  text-align: left;background-color: red; */
+  display: block;
+  color:#000;
   font-size: 15px;
-  padding:15px 0 0 0;
-  margin-bottom: 5px;
+  margin: 15px 0 15px 0;
+  width:100%;
+}
+.text-inner{
+width:40%;
 }
 .text a{
     color:#a0a0a0;
@@ -241,6 +242,10 @@ font-size: 21px;
 }
 
 @media (max-width: 850px) {
+
+  .text{
+      width:100%;
+  }
 .vertical-block{
 flex-wrap: wrap;
 }
