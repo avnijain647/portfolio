@@ -141,37 +141,42 @@ align-items: flex-start;
   width:48vw;
 }
 
+.ucfs{
+  background-image: url(project-cover/ucfs-cover.png);
+  background-size: cover;
+  background-position: center;
+}
 
 .one{
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(fig-cover.png);
+  background-image: url(project-cover/fig-cover.png);
 }
 
 .two{
     background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(1-TFF.png);
+  background-image: url(project-cover/tff-cover.png);
 }
 .noorahealth{
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(nh-cover2.png);
+  background-image: url(project-cover/nh-cover.png);
 }
 .indigo{
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(indigo-cover.png);
+  background-image: url(project-cover/indigo-cover.png);
 }
 .illustration{
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(illustration.png);
+  background-image: url(project-cover/illustration.png);
 }
 
 .vinyl_1{
