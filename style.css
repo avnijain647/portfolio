@@ -35,13 +35,14 @@ z-index: 0; */
 .inner{
   margin-top: 20px;
   margin-bottom: 20px;
-width:36%;
+width:42%;
+font-size: 18px;
 }
 .info{
   background-color: yellow;
     margin-left: 20px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 17px;
 width:50px;
 text-align: center;
   /* position: fixed; */
@@ -55,11 +56,12 @@ text-align: center;
 .project3 a:hover,
 .info a:hover{
   color:#333;
-border-bottom:1px solid #333;
+text-decoration: underline;
 }
 
 .project2 a:hover .project-name{
-border-bottom:2px solid #333;
+/* border-bottom:2px solid #333; */
+text-decoration: underline;
 
 }
 
@@ -79,17 +81,17 @@ border-bottom:2px solid #333;
   top:12px;
   right:12px;
   z-index: 4;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .dashboard{
   /* background-color:yellow; */
-  position: relative;
+  /* position: relative; */
     /* margin-top: 10px; */
     z-index: 5;
-  /* width:95vw; */
-  margin-left: 20px;
-  margin-right:20px;
+  width:92vw;
+  margin-left: 2.5vw;
+  margin-right:2.5vw;
   /* height: 100%; */
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +101,9 @@ border-bottom:2px solid #333;
 }
 .gallery{
   width:100%;
+
+    font-size: 14px;
+
   /* background-color: red; */
   display: flex;
   flex-flow: row;
@@ -115,30 +120,32 @@ width:23.5%;
   width: 100%;
 }
 
-.project1{
+/* .project1{
     margin-bottom:25px;
   display: flex;
   flex-wrap: nowrap;
 justify-content: space-between;
 align-items: flex-start;
     width:96vw;
-}
+} */
 
-.project-image1{
-  /* background-color: yellow; */
+/* .project-image1{
+  background-color: yellow;
   height: 48vw;
   width:80vw;
-}
+} */
 
 .project2{
   cursor: pointer;
   margin-bottom:25px;
-  width:48vw;
+  /* background-color: yellow; */
+  /* position: relative; */
+  width:46vw;
 }
 .project-image2{
   /* background-color: black; */
-  height: 48vw;
-  width:48vw;
+  height: 46vw;
+  width:46vw;
 }
 
 .ucfs{
@@ -235,12 +242,14 @@ border-top: 1px #000 solid;
   width:33vw;
 }
 .project-text2{
-  position: relative;
+  /* position: relative; */
   display: flex;
+  height:60px;
+  /* display: inline-block; */
   flex-wrap: nowrap;
   justify-content:space-between;
   align-items:  flex-start;
-  margin-top: 15px;
+  margin-top: 10px;
   width:48vw;
 }
 .project-text1{
@@ -255,11 +264,11 @@ margin-left:15px;
 }
 
 .project-name{
-  /* padding-bottom: 15px; */
-/* width:350px; */
-line-height: 1;
-  font-size:27px;
+    width:70%;
+line-height: 1.4;
+  font-size:18px;
 }
+
 .project-name3{
   line-height:1.5;
 /* width:350px; */
@@ -271,7 +280,7 @@ p{
 }
 .year{
   /* background-color: red; */
-    font-size: 16px;
+    font-size: 17px;
 }
 .project-tabs2{
   text-align: right;
@@ -281,7 +290,7 @@ p{
   /* background-color: red; */
   /* padding-left:15px; */
     /* border-left: 1px solid black; */
-    font-size: 16px;
+    font-size: 17px;
 }
 .project-tabs1{
   width:150px;
@@ -290,7 +299,7 @@ p{
 
     /* text-transform: uppercase; */
     border-top: 1px solid black;
-    font-size: 16px;
+    font-size: 17px;
 }
 .project-tabs3{
   width:150px;
@@ -298,10 +307,15 @@ p{
   margin-top:50px;
     /* text-transform: uppercase; */
     border-top: 1px solid black;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 @media (max-width: 800px) {
+
+  .project-name{
+      width:100%;
+        font-size:16px;
+  }
 
 .dashboard{
   flex-wrap: wrap;
@@ -310,6 +324,7 @@ p{
 }
 
 .inner{
+  font-size: 14px;
 width:100%;
 }
 
@@ -372,9 +387,7 @@ margin-left:0px;
 @media (max-width: 600px) {
 
 
-.project-name{
-  font-size:21px;
-}
+
 .project3{
   justify-content: center;
   align-items: center;
