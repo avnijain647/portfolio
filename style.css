@@ -35,6 +35,13 @@ border-top: 1px solid #000;
 margin-bottom: 50px;
   width:100%;
 }
+
+.write-up a{
+  color: black;
+  /* text-decoration: underline; */
+}
+
+
 .inner{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -123,7 +130,9 @@ width:23.5%;
 .gallery-1 img{
   width: 100%;
 }
-
+.gallery-1 a{
+  color:black;
+}
 /* .project1{
     margin-bottom:25px;
   display: flex;
