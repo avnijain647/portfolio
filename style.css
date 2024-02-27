@@ -198,7 +198,12 @@ align-items: flex-start;
   background-repeat: no-repeat;
   background-image: url(project-cover/illustration.png);
 }
-
+.research{
+  background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(qs-research.png);
+}
 .vinyl_1{
   background-position: center;
 background-size: contain;
