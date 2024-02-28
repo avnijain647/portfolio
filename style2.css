@@ -7,7 +7,9 @@ body{
 }
 .text{
   /* display: block !important;
-  text-align: left;background-color: red; */
+  text-align: left;
+     background-color: red;
+ */
   display: block;
   color:#000;
   font-size: 15px;
