@@ -248,6 +248,13 @@ font-size: 21px;
 .bar{
   /* margin-left: 10px; */
 }
+
+.project-gallery{
+  width: 95vw;
+  margin-left: 2.5vw;
+  margin-right:2.5vw;
+}
+
   .text{
       width:100%;
   }
