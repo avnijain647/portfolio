@@ -255,6 +255,12 @@ font-size: 21px;
   margin-right:2.5vw;
 }
 
+.landing{
+  width: 95vw;
+  margin-left: 2.5vw;
+  margin-right:2.5vw;
+}
+
   .text{
       width:100%;
   }
@@ -267,7 +273,7 @@ flex-wrap: wrap;
 }
 .vertical-block-1{
 width:100%;
-font-size: 15px;
+font-size: 14px;
 }
 
 .vertical-block-2{
@@ -292,7 +298,6 @@ width: 100%;
   }
 
   .role{
-
      margin-top: 0px;
      padding-top: 8px;
     width: 100%;
