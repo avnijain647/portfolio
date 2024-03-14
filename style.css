@@ -72,7 +72,7 @@ width:420px;
 font-size: 21px;
 }
 .inner-email{
-  letter-spacing: .6px;
+  letter-spacing: .4px;
   padding-top: 30px;
   font-size: 12px;
   text-transform: uppercase;
@@ -141,7 +141,7 @@ text-decoration: underline;
   /* flex-direction: row; */
 }
 .gallery{
-  letter-spacing: .6px;
+  letter-spacing: .4px;
   width:100%;
 line-height: 1.4;
     font-size: 12px;
@@ -315,7 +315,7 @@ margin-left:15px;
 .project-name{
   text-transform: uppercase;
     width:50%;
-    letter-spacing: .6px;
+    letter-spacing: .4px;
 line-height: 1.4;
   font-size:14px;
 }
