@@ -28,7 +28,6 @@ display: flex;
 flex-wrap: nowrap;
 justify-content:  space-between;
 align-items: center;
-
 }
 
 .reel{
@@ -92,7 +91,9 @@ color:grey;
 color:black;
 text-decoration: underline;
 }
-
+.selected a{
+  color:black;
+}
 .info{
   background-color: yellow;
     margin-left: 20px;
@@ -245,7 +246,7 @@ align-items: flex-start;
   background-repeat: no-repeat;
   background-image: url(project-cover/illustration.png);
 }
-.research{
+.user-research{
   background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
