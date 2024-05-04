@@ -12,14 +12,16 @@ body::-webkit-scrollbar {
 
 div{
 /* background-color: yellow; */
-  border: 1px solid #AE0000;
-  padding: 10px;
+
+  /* padding: 10px; */
 }
 .toolbox{
+  /* border: 1px solid #AE0000; */
   font-size:21px;
   text-align: center;
 }
 .elements{
+  border: 1px solid #AE0000;
   word-wrap: break-word;
   font-size:10vw;
   width:50vw;
