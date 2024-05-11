@@ -87,16 +87,20 @@ font-size: 21px;
   font-size: 12px;
   text-transform: uppercase;
 }
+
 .heading{
 color:grey;
 }
-.selected{
+.heading a{
+color:grey;
+}
+.selected a{
 color:black;
 text-decoration: underline;
 }
-.selected a{
+/* .selected a{
   color:black;
-}
+} */
 .info{
   background-color: yellow;
     margin-left: 20px;
@@ -411,7 +415,7 @@ align-items: center;
     height:80vw;
   }
 .section{
-font-size: 14px;
+font-size: 12px;
 }
 
 .footer{
@@ -420,7 +424,7 @@ font-size: 14px;
 
   .project-name{
       width:70%;
-        /* font-size:16px; */
+        font-size:12px;
   }
 
 .dashboard{
@@ -436,7 +440,7 @@ width:100%;
 
 .gallery-1{
 width:48%;
-font-size: 10px;
+font-size: 12px;
 /* justify-content: flex-start; */
 }
 
