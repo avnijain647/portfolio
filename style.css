@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
     position: relative;
     position: sticky;
     width:95vw;
-    margin-top: 2.5vw;
+    margin-top: 1.5vw;
     margin-left: 2.5vw;
     margin-right:2.5vw;
     /* height:36px; */
@@ -188,6 +188,16 @@ width:23.5%;
 .gallery-1 a{
   color:black;
 }
+
+.artwork{
+/* background-color: yellow; */
+margin-bottom: 15px;
+width:32%;
+}
+.artwork img{
+  width: 100%;
+}
+
 /* .project1{
     margin-bottom:25px;
   display: flex;
@@ -442,6 +452,10 @@ width:100%;
 width:48%;
 font-size: 12px;
 /* justify-content: flex-start; */
+}
+.artwork{
+width:48%;
+font-size: 12px;
 }
 
 .project2{
