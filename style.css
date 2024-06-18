@@ -327,13 +327,16 @@ border-top: 1px #000 solid;
 .project-text2{
   /* position: relative; */
   display: flex;
-  height:60px;
+  /* background-color: red; */
+  /* height:60px; */
   /* display: inline-block; */
   flex-wrap: nowrap;
   justify-content:space-between;
   align-items:  flex-start;
   margin-top: 10px;
-  width:48vw;
+  letter-spacing: .4px;
+line-height: 1.4;
+font-size:16px;
 }
 .project-text1{
   position: sticky;
@@ -347,11 +350,13 @@ margin-left:15px;
 }
 
 .project-name{
+  color: grey;
+    /* background-color: yellow; */
   text-transform: uppercase;
     width:50%;
     letter-spacing: .4px;
 line-height: 1.4;
-  font-size:14px;
+  font-size:12px;
 }
 
 .project-name3{
