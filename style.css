@@ -245,6 +245,13 @@ align-items: flex-start;
   background-repeat: no-repeat;
   background-image: url(project-cover/tff-cover.png);
 }
+.wildharvest{
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(project-cover/wh-cover.gif);
+}
+
 .noorahealth{
     background-position: center;
   background-size: cover;
