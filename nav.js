@@ -1,4 +1,4 @@
-// 
+//
 //
 // $(function() {
 //     var img = $('.rick2').html();
@@ -29,6 +29,20 @@
 //         $('.rick').append(content);
 //     }
 // });
+
+
+$('.filters-list a').on('click', function() {
+  var filter = $(this).attr('data-filter')
+  console.log(filter)
+  $('.portfolio').hide()
+  $(filter).show()
+    $('.filters-list a').removeClass('select')
+  $(this).addClass('select')
+  var boxsize = $(this).attr('data-size')
+  $(filter).removeClass('small large')
+  $(filter).addClass(boxsize)
+  return false
+})
 
 $('.script3').hover(function(){
    $('.script6_1').fadeToggle(0)
