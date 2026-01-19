@@ -12,7 +12,8 @@ body::-webkit-scrollbar {
     font-size: 18px;
   font-family: 'DM Sans', sans-serif;
     position: relative;
-    position: sticky;
+    position: fixed;
+    z-index:10000;
     width:95vw;
     margin-top: 1.5vw;
     margin-left: 2.5vw;
@@ -87,14 +88,14 @@ ul{
     text-decoration: underline;
 }
 .reel{
-  position: fixed;
+  /* position: fixed; */
   /* top: 2.5vw; */
-  z-index: 0;
+  /* z-index: 0; */
   /* display: flex;
   justify-content: center;
   align-items: center; */
   width:100vw;
-  height:84vh;
+  height:100vh;
 /* background-color: red; */
 background-image: url(bg.png);
 background-size: cover;
@@ -102,8 +103,8 @@ background-position: center;
 background-repeat: no-repeat;
 }
 .reel-box{
-  width:480px;
-  height:480px;
+  /* width:480px;
+  height:480px; */
 }
 
 .section{
@@ -217,7 +218,7 @@ text-decoration: underline;
     /* margin-top: 10px; */
     z-index: 15;
   width:95vw;
-  margin-top: 90vh;
+  /* margin-top: 90vh; */
   margin-left: 2.5vw;
   margin-right:2.5vw;
   /* height: 100%; */
